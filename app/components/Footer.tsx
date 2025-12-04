@@ -7,8 +7,8 @@ const Footer = () => {
 
     
 
-    <div className="flex justify-center items-center bg-white ">
-  <div className="flex gap-20 text-xl text-black pt-10 pb-5"> 
+    <div className="flex justify-center items-center bg-white absolute bottom-0 ">
+  <div className="flex gap-20 text-xl text-black pt-10 pb-10"> 
 
    <div>
   <p className="font-sans font-bold text-3xl text-gray-800 tracking-tight">
@@ -56,7 +56,7 @@ const Footer = () => {
     <div className="text-gray-400 text-sm mt-5 space-y-3   ">
         <p>Questions or Feedbacks?</p>
         <p>We would love to hear from you</p>
-        <div className='flex gap-8 mt-20'>
+        <div className='flex gap-8 mt-10'>
         <Icon icon="mdi:twitter" width="30" height="30" />
         <Icon icon="iconoir:instagram" width="30" height="30" />
         <Icon icon="ic:outline-facebook" width="30" height="30" />
