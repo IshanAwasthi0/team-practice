@@ -3,11 +3,10 @@
 const Footer = () => {
     return (
         <>
-        <div className="flex justify-center items-center bg-white">
+ <div className="flex justify-center items-center bg-white">
   <div className="flex gap-40 text-xl text-black"> 
-    <div
-    ><p>Your To Do List</p>
-    <p></p>
+    <div>
+    <p>Your To Do List</p>
     </div>
 
     <div>
@@ -20,8 +19,15 @@ const Footer = () => {
     </div>
  
 
-    <div><p>Get In Touch</p></div>
-  </div>
+    <div>
+    <p className="text-black font-bold text-center">Get In Touch</p>
+    <div className="text-black text-sm mt-5 space-y-3">
+        <p>Questions or Feedbacks?</p>
+        <p>We would love to hear from you</p>
+    </div>
+
+    </div>
+   </div>
 </div>
         
         </> 
