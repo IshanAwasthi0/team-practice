@@ -1,12 +1,14 @@
 import Nav from "./components/Nav";
 import ToDoList from "./components/ToDoList";
 import Footer from "./components/Footer";
+import { fectchList } from "./actions/taskActions";
 
-export default function Home() {
+export default async function Home() {
+  const tasks = await fectchList()
   return (
     <>
       <Nav />
-      <ToDoList />
+      <ToDoList tasks={tasks || []}/>
       <Footer />
     </>
   );
