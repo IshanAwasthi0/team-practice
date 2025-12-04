@@ -1,11 +1,11 @@
+import { removeTask } from "../actions/taskActions"
 
-
-const Task = () => {
+const Task = ({content, id}: {content: string, id:string}) => {
     return (
         <div>
             <div>
-                <h1>Task here</h1>
-                
+                <h1>{content}</h1>
+                <button onClick={() => removeTask(id)}>x</button>
             </div>
         </div>
     )
