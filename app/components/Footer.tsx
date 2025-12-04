@@ -3,8 +3,24 @@ import { Icon } from '@iconify/react';
 const Footer = () => {
     return (
         <>
- <div className="flex justify-center items-center bg-white">
+ <div>
+
+    
+
+    <div className="flex justify-center items-center bg-white ">
   <div className="flex gap-40 text-xl text-black"> 
+
+    <div>
+        <p className="text-black font-bold">Useful links</p>
+        <div  className="text-gray-400  text-sm mt-5 space-y-3">
+            <p>About us</p>
+            <p>Contact us</p>
+            <p>FAQs</p>
+            <p>Terms of services</p>
+            <p>Privacy policies</p>
+        </div>
+    </div>
+
     <div>
     <p className="text-black font-bold">Your To Do List</p>
     <div className="text-gray-400  text-sm mt-5 space-y-3">
@@ -29,14 +45,18 @@ const Footer = () => {
     <div className="text-gray-400 text-sm mt-5 space-y-3   ">
         <p>Questions or Feedbacks?</p>
         <p>We would love to hear from you</p>
-        <Icon icon="mdi:twitter" width="24" height="24" />
-        <Icon icon="iconoir:instagram" width="24" height="24" />
-        <Icon icon="ic:outline-facebook" width="24" height="24" />
+        <div className='flex gap-8 mt-20'>
+        <Icon icon="mdi:twitter" width="50" height="50" />
+        <Icon icon="iconoir:instagram" width="50" height="50" />
+        <Icon icon="ic:outline-facebook" width="50" height="50" />
+        </div>
     </div>
 
     </div>
    </div>
 </div>
+<br />
+ </div>
         
         </> 
     )
