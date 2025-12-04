@@ -2,7 +2,12 @@
 
 const Task = () => {
     return (
-        <div>Task</div>
+        <div>
+            <div>
+                <h1>Task here</h1>
+                
+            </div>
+        </div>
     )
 }
 
