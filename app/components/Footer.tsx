@@ -8,7 +8,18 @@ const Footer = () => {
     
 
     <div className="flex justify-center items-center bg-white ">
-  <div className="flex gap-40 text-xl text-black"> 
+  <div className="flex gap-20 text-xl text-black pt-10 pb-5"> 
+
+   <div>
+  <p className="font-sans font-bold text-3xl text-gray-800 tracking-tight">
+    ✒️ TO DO LIST
+  </p>
+  <div className="font-sanstext text-gray-400  text-sm mt-5 space-y-1 ">
+    <p>Organize your tasks efficiently</p>
+    <p>never be late to submit a task ever agin</p>
+    <p>Always have all of your work finished on time.</p>
+  </div>
+</div>
 
     <div>
         <p className="text-black font-bold">Useful links</p>
@@ -46,16 +57,15 @@ const Footer = () => {
         <p>Questions or Feedbacks?</p>
         <p>We would love to hear from you</p>
         <div className='flex gap-8 mt-20'>
-        <Icon icon="mdi:twitter" width="50" height="50" />
-        <Icon icon="iconoir:instagram" width="50" height="50" />
-        <Icon icon="ic:outline-facebook" width="50" height="50" />
+        <Icon icon="mdi:twitter" width="30" height="30" />
+        <Icon icon="iconoir:instagram" width="30" height="30" />
+        <Icon icon="ic:outline-facebook" width="30" height="30" />
         </div>
     </div>
 
     </div>
    </div>
 </div>
-<br />
  </div>
         
         </> 
