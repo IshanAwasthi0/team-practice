@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Icon } from '@iconify/react'
 const Nav = () => {
     return (
-        <div className="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div className="bg-white border-b border-gray-200 sticky top-0 z-50 w-screen">
             <div className="w-[95%] max-w-[1200px] mx-auto flex items-center justify-between h-[12vh] min-h-[70px] px-[3%]">
                 
                 <div className="text-[4vw] md:text-[2.5vw] lg:text-[1.5rem] font-semibold text-gray-900 tracking-tight">

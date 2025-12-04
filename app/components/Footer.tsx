@@ -3,8 +3,7 @@ import { Icon } from '@iconify/react';
 const Footer = () => {
   return (
     <>
-      <div>
-        <div className="bg-white w-full absolute bottom-0 left-0">
+        <footer className="relative bottom-0 bg-white w-screen left-0 position-">
             <div className="flex justify-between max-w-7xl mx-auto gap-20 text-xl text-black pt-10 pb-10 flex-wrap">
 
             <div>
@@ -61,8 +60,7 @@ const Footer = () => {
             </div>
 
           </div>
-        </div>
-      </div>
+        </footer>
     </>
   );
 }

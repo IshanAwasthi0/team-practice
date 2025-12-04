@@ -7,9 +7,11 @@ export default async function Home() {
   const tasks = await fectchList()
   return (
     <>
+    <div className="flex flex-col justify-center items-center">
       <Nav />
       <ToDoList tasks={tasks || []}/>
       <Footer />
+    </div>
     </>
   );
 }
